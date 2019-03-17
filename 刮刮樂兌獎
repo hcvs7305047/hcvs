@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a,n;
+cin>>a;
+	if(a%10==2||a%10==5||a%10==8) //第二個數字是2.5.8
+	 n=n+200;
+	if(a/10%2==1) //第一個數字是奇數
+	 n=n+100;	
+	if(a%10==a/10%10) //第一個數字和第二個數字相同
+	n=n+50;
+
+	cout<<n<<endl;
+	
+	return 0;
+}
