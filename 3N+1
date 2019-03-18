@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n,counter;
+cin>>n;
+counter=1;
+while(n!=1){ //當n不等於一時
+counter=counter+1;
+if(n%2==1) //如果n不能被整除
+n=3*n+1;
+else
+n=n/2;
+}
+cout<<counter<<endl;
+return 0;
+}
