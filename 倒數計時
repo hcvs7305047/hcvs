@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n,i;
+while(cin>>n){
+	for(i=n;i>0;i--){ //i等於n,i大於0時,i--
+		cout<<i<<" "; //輸出i<<題目中間有空格
+	}
+	cout << "0"; 
+}
+	
+
+	return 0;
+}
